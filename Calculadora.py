@@ -21,12 +21,10 @@ ventana = Tk()
 ventana.title("Calculadora")
 ventana.geometry("300x200")  
 
-
 color_fondo = "#FCE4CA"  
 color_botones = "#C3A492"  
 
 ventana.configure(bg=color_fondo)
-
 
 label_numero1 = Label(ventana, text="Número 1:", bg=color_fondo)
 label_numero1.pack()
